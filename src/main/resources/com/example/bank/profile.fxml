@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="884.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="639.0" prefWidth="285.0" style="-fx-background-color: #3355FF;">
+         <children>
+            <Label alignment="CENTER" layoutX="87.0" layoutY="133.0" prefHeight="27.0" prefWidth="63.0" style="-fx-text-fill: white;" text="Profile">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="67.0" layoutY="247.0" prefHeight="27.0" prefWidth="103.0" style="-fx-text-fill: white;" text="Card Details">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="362.0" prefHeight="27.0" prefWidth="121.0" style="-fx-text-fill: white;" text="Account Details">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="54.0" fitWidth="63.0" layoutX="93.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/profile.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="54.0" fitWidth="63.0" layoutX="92.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/card.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="54.0" fitWidth="63.0" layoutX="93.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/money.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="54.0" fitWidth="63.0" layoutX="93.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/logout.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="60.0" layoutY="482.0" prefHeight="27.0" prefWidth="121.0" style="-fx-text-fill: white;" text="Log Out">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="639.0" prefWidth="668.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #61d8de 0.0%, #e839fe 100.0%);">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="217.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/guy.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="186.0" layoutY="200.0" prefHeight="54.0" prefWidth="212.0" text="Mahendra Mahato" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="254.0" prefHeight="41.0" prefWidth="482.0" text="Account Number :" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="299.0" prefHeight="41.0" prefWidth="482.0" text="Username           :" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="340.0" prefHeight="41.0" prefWidth="482.0" text="Account Type      :" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="381.0" prefHeight="41.0" prefWidth="482.0" text="Gender                :" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="422.0" prefHeight="41.0" prefWidth="482.0" text="Email                   :" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="463.0" prefHeight="41.0" prefWidth="482.0" text="Address               :" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</HBox>
